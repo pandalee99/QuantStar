@@ -419,7 +419,7 @@ def tran(ds, mm, buy_sell_strategy):
 
 def find_file(s):
    r = []
-   for root, dirs, files in os.walk('.'):
+   for root, dirs, files in os.walk('..'):
       if root != '.':
          break
       for file in files:

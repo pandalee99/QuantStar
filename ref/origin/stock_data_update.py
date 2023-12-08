@@ -96,7 +96,7 @@ def ktype_from_cycle(cycle):
 
 def find_file(s):
    r = []
-   for root, dirs, files in os.walk('.'):
+   for root, dirs, files in os.walk('..'):
       if root != '.':
          break
       for file in files:
